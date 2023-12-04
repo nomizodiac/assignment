@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="products">Products</string>
+    <string name="product_details">Product Details</string>
+    <string name="ok">ok</string>
+    <string name="error">Error</string>
+    <string name="offline">You are offline</string>
+    <string name="check_connection_retry">Please check your internet connection and retry</string>
+    <string name="retry">Retry</string>
+</resources>
