@@ -31,7 +31,7 @@ class ProductDetailsViewModel @Inject constructor(
         }
     }
 
-    private fun getProductDetails(productId: String) {
+    fun getProductDetails(productId: String) {
         cancelJob(productDetailsJob)
         val request = ProductDetailRequest(productId = productId)
         productDetailsJob = productDetailsUseCase(request).onEach { result ->
